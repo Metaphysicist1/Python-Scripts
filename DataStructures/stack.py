@@ -1,5 +1,5 @@
 import collections 
-import numpy as np
+#import numpy as np
 
 
 
@@ -30,10 +30,10 @@ class Stack(object):
         print("Log Information:",*[f'{i+1}) {self.log[i]}' for i in range(self.length)],sep='\n')
         
 
-stack = Stack([4,6,92,0,'5'])
-stack.Append(0)
-stack.Append(3)
-stack.Print()
-stack.Pop()
-stack.Print()
-stack.Info()
+# stack = Stack([4,6,92,0,'5'])
+# stack.Append(0)
+# stack.Append(3)
+# stack.Print()
+# stack.Pop()
+# stack.Print()
+# stack.Info()
